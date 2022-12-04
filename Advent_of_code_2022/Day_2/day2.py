@@ -1,5 +1,5 @@
 def main():
-    input = open("Day_2/input")
+    input = open("Advent_of_code_2022/Day_2/input")
     points_dictionary = {"A":1, "B":2, "C":3, "X":1, "Y":2, "Z":3}
 
     elfs_hands, my_hands = GetListsOfHands(input, points_dictionary)
@@ -76,7 +76,6 @@ def ConstructMyHands(elfs_hands, my_hands):
        
         my_instructions.append(my_hand)
         index += 1
-    print(my_instructions)
     return my_instructions
 
 
